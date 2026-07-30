@@ -32,3 +32,5 @@ test('Opencart Registration Account Testing', async ({ page }) => {
   console.log('Driver Title:', await page.title());
   console.log('Success Message:', await successMessage.textContent());
 });
+// Driver Title: Your Account Has Been Created!
+// Success Message: Your Account Has Been Created!
